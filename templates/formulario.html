@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>Mi página de ejemplo</title>
+	</head>
+	<body>
+	Aquí va el contenido
+	</body>
+	<form action="{{url_for('hello')}}" method="post">
+		<h3>Nombre Completo</h3>
+		<input type="text" name="name"  placeholder=""  >
+		<h3>Fecha de Naciento</h3>
+		<input type="date" name="fecha" >
+		<h3>Ocupacion</h3>
+		<input type="text" name="ocupacion"  placeholder=""  >
+		<h3>Contacto</h3>
+		<input type="text" name="telf"  placeholder="telefono"  >
+		<input type="email" name="email"  placeholder="email"  >
+		<h3>Nacionalidad</h3>
+		<select class="" name="nacionalidad">
+			<option value="Peru">Peru</option>
+			<option value="Ecuador">Ecuador</option>
+			<option value="Chile">Chile</option>
+			<option value="Argentina">Argentina</option>
+			<option value="Otros">Otros</option>
+		</select>
+		<h3>INGLES</h3>
+		<input type="radio" name="ingles" checked>basico
+		<input type="radio" name="ingles" checked>intermedio
+		<input type="radio" name="ingles" checked>avanzado
+		<input type="radio" name="ingles" checked>fluido
+		<h3>Lenguajes de programacion </h3>	
+		
+		<select name="lenguajes" multiple>
+			<option value="c++">c++</option>
+			<option value="python">python</option>
+			<option value="c#">c#</option>
+			<option value="php">php</option>
+			<option value="java">java</option>
+			<option value="JavaScript">avaScript</option>
+		  </select>
+		<h3>Aptitudes</h3>	
+		<input type="datalist" name="aptitudes" list="aptitudes">
+		<datalist id="aptitudes">
+			<option value="Inteligencia emocional"></option>
+			<option value="Espiritu critico"></option>
+			<option value="Trabajo en equipo"></option>
+			<option value="Capacidad analitica"></option>
+			<option value="Habilidades fisicas"></option>
+		
+		</datalist>
+		
+		<h3>Habilidades</h3>
+		
+			<input type="checkbox" name="a_fisico" value="acondicionamiento fisico">
+			<label for="a_fisico">acondicionamiento fisico</label>
+			
+			<input type="checkbox" name="c_v_d" value="creacion video deportivos" >
+			<label for="creacion video deportivos">creacion video deportivos</label>
+			
+			<input type="checkbox" name="p_ofice" value="pack office">
+			<label for="pack office">pack office</label>
+			
+			<input type="checkbox" name="tenis" value="tenis" >
+			<label for="tenis">tenis</label>
+			 
+		<h3></h3>
+		<button>Terminar</button>
+	
+		<h3>Perfil</h3>
+		<textarea name="texto1" rows="4" cols="25"></textarea>
+	
+	</form>
+
+	
+</html>

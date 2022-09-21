@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  #caja{
+    height: 120%;
+    width: 45%;
+    margin: 0px auto;
+    border:1px solid black ;
+    
+  }
+  .caja1{
+    display: table;
+    
+    height: 15%;
+    width: 100%;
+    background:rgb(99,94,93);
+    
+
+  }
+  #tex1{
+    color: white;
+    padding-left: 40%;
+    font-size: 40px;
+    
+    
+  }
+  #tex2{
+    color: white;
+    padding-left: 36%;
+    font-size: 30px
+   
+  }
+  .imagen_1 {
+    max-width: 100px;
+    border-radius:50%; 
+}
+  
+  #caja2{
+    float: left;
+    width: 30%; 
+    background: rgb(228, 221, 220);
+    padding-left: 18px;
+    height: 85%;
+   
+  }
+  #caja2 hr{
+    width: 88%;
+    height: 1px;
+    background:black;
+    margin-left: 1px;
+  }
+  #caja3{
+    width: 60%;
+    float: left;
+    padding-left:  18px;
+    
+
+  }
+
+  #caja3 hr{
+    width: 95%;
+    height: 1px;
+    background:black;
+    margin-left: 1px;
+  }
